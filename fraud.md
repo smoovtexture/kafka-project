@@ -16,11 +16,11 @@ kubectl exec -it kafka-0 -- kafka-topics \
 
 kubectl exec -it kafka-0 -- kafka-console-consumer \
   --bootstrap-server kafka-service:9092 \
-  --topic <topic name> \
+  --topic digitalpayments.payment.initiated \
   --property parse.key=true \
   --property key.deserializer=org.apache.kafka.common.serialization.StringDeserializer \
   --property value.deserializer=org.apache.kafka.common.serialization.StringDeserializer \
-  --group <consumer group name> \
+  --group fraud.scoring.service \
   --property max.poll.records= <value> \
   --property session.timeout.ms=<value>  \ 
   --property heartbeat.interval.ms=<value>  \

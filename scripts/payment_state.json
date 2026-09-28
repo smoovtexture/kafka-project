@@ -1,0 +1,112 @@
+[
+  {
+    "paymentId": "pay-001",
+    "payerAccountNumber": "0993152446",
+    "payerAccountType": "SVGS",
+    "payeeAccountNumber": "3753539859",
+    "payeeAccountType": "SVGS",
+    "amount": 4428.33,
+    "outcome": "auth_fail",
+    "fraudScore": "High",
+    "stage": "digitalpayments.payment.unauthorised"
+  },
+  {
+    "paymentId": "pay-002",
+    "payerAccountNumber": "8275162884",
+    "payerAccountType": "SVGS",
+    "payeeAccountNumber": "1848434320",
+    "payeeAccountType": "SVGS",
+    "amount": 1169.9,
+    "outcome": "success",
+    "fraudScore": "Medium",
+    "stage": "digitalpayments.payment.completed"
+  },
+  {
+    "paymentId": "pay-003",
+    "payerAccountNumber": "3420074617",
+    "payerAccountType": "SVGS",
+    "payeeAccountNumber": "1961564517",
+    "payeeAccountType": "SVGS",
+    "amount": 474.94,
+    "outcome": "validation_fail",
+    "fraudScore": "Medium",
+    "stage": "digitalpayments.payment.invalidated"
+  },
+  {
+    "paymentId": "pay-004",
+    "payerAccountNumber": "9668690077",
+    "payerAccountType": "SVGS",
+    "payeeAccountNumber": "8766593089",
+    "payeeAccountType": "SVGS",
+    "amount": 4535.59,
+    "outcome": "completion_fail",
+    "fraudScore": "Medium",
+    "stage": "digitalpayments.payment.incomplete"
+  },
+  {
+    "paymentId": "pay-005",
+    "payerAccountNumber": "1900215102",
+    "payerAccountType": "SVGS",
+    "payeeAccountNumber": "6582193775",
+    "payeeAccountType": "SVGS",
+    "amount": 3471.58,
+    "outcome": "success",
+    "fraudScore": "Low",
+    "stage": "digitalpayments.payment.completed"
+  },
+  {
+    "paymentId": "pay-006",
+    "payerAccountNumber": "7670009026",
+    "payerAccountType": "SVGS",
+    "payeeAccountNumber": "4596693989",
+    "payeeAccountType": "SVGS",
+    "amount": 1123.86,
+    "outcome": "success",
+    "fraudScore": "Medium",
+    "stage": "digitalpayments.payment.completed"
+  },
+  {
+    "paymentId": "pay-007",
+    "payerAccountNumber": "5477468669",
+    "payerAccountType": "SVGS",
+    "payeeAccountNumber": "0585861071",
+    "payeeAccountType": "SVGS",
+    "amount": 586.0,
+    "outcome": "success",
+    "fraudScore": "Low",
+    "stage": "digitalpayments.payment.completed"
+  },
+  {
+    "paymentId": "pay-008",
+    "payerAccountNumber": "1640166013",
+    "payerAccountType": "SVGS",
+    "payeeAccountNumber": "3424462217",
+    "payeeAccountType": "SVGS",
+    "amount": 3589.66,
+    "outcome": "success",
+    "fraudScore": "Low",
+    "stage": "digitalpayments.payment.completed"
+  },
+  {
+    "paymentId": "pay-009",
+    "payerAccountNumber": "5734062460",
+    "payerAccountType": "SVGS",
+    "payeeAccountNumber": "8620953647",
+    "payeeAccountType": "SVGS",
+    "amount": 1657.07,
+    "outcome": "success",
+    "fraudScore": "Low",
+    "stage": "digitalpayments.payment.completed"
+  },
+  {
+    "paymentId": "pay-010",
+    "payerAccountNumber": "1020791846",
+    "payerAccountType": "SVGS",
+    "payeeAccountNumber": "1937577859",
+    "payeeAccountType": "SVGS",
+    "amount": 113.8,
+    "outcome": "success",
+    "fraudScore": "Medium",
+    "stage": "digitalpayments.payment.completed"
+  }
+]
